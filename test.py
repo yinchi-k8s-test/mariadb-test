@@ -42,7 +42,7 @@ class DBSettings(BaseSettings):
     )
 
 
-settings = DBSettings(database='db_test')
+settings = DBSettings(database='mariadb_test')
 
 
 class MyModel(SQLModel, table=True):
